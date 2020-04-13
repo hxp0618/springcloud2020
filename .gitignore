@@ -5,24 +5,7 @@
 # IntelliJ project files
 .idea
 *.iml
-out
+out/
 gen
-target
+target/
 .gitignore
-
-cloud-api-commons/src/test/
-cloud-api-commons/target/generated-sources/
-cloud-consumer-order80/src/test/
-cloud-consumer-order80/target/generated-sources/
-cloud-consumerconsul-order80/src/test/
-cloud-consumerzk-order80/src/test/
-cloud-eureka-server7001/src/test/
-cloud-eureka-server7001/target/generated-sources/
-cloud-eureka-server7002/src/test/
-cloud-eureka-server7002/target/generated-sources/
-cloud-provider-payment8001/src/test/
-cloud-provider-payment8001/target/generated-sources/
-cloud-provider-payment8002/src/test/
-cloud-provider-payment8002/target/generated-sources/
-cloud-provider-payment8004/src/test/
-cloud-providerconsul-payment8006/src/test/

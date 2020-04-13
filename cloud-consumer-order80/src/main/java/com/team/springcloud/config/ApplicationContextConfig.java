@@ -18,7 +18,8 @@ public class ApplicationContextConfig {
 
     //使用 @LoadBalanced 注解赋予RestTemplate负载均衡的能力
     @Bean
-    @LoadBalanced
+    //使用自己的动态切换算法就需要把rabbin默认的轮询注解给注释
+//    @LoadBalanced
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }
