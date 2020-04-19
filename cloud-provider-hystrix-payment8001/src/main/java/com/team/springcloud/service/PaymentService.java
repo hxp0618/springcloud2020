@@ -21,13 +21,13 @@ public class PaymentService {
 
     //错误访问
     public String paymentInfo_TimeOut(Integer id) {
-        int timeNumber = 3;
+        int timeNumber = 5;
         try {
             TimeUnit.SECONDS.sleep(timeNumber);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return "线程池：    " + Thread.currentThread().getName() + "    paymentInfo_OK,id:   " + id + "\t" + "====";
+        return "线程池：    " + Thread.currentThread().getName() + "   系统繁忙或者运行报错，请稍后再试， paymentInfo_OK,id:   " + id + "\t" + "====";
     }
 
 }
